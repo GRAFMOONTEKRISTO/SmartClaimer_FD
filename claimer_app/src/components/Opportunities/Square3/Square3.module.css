@@ -20,25 +20,39 @@
     /*padding: 48px 40px 49px 40px;*/
 }
 
-.image {
-    /*display: flex;*/
+.imageDown {
+    display: grid;
     background: #2E2E2E;
-    width: 325px;
-    height: 197px;
+    width: 247px;
+    height: 247px;
     top: 43px;
     left: 110px;
+    margin-top: 60px;
+    margin-bottom: 20px;
 }
 
-.text {
+.imageUp {
+    margin-bottom: 32px;
+}
+
+.title {
+    width: 532px;
+    height: 47px;
     color: white;
     font-size: 32px;
     font-family: 'SB Sans Display', sans-serif;
     font-weight: 600;
     line-height: 38px;
     word-wrap: break-word;
+    margin-bottom: 20px;
+
+
 }
 
 .description {
+    display: grid;
+    grid-template-columns: 532px;
+    grid-template-rows: 96px;
     color: #E7E7E7;
     font-size: 16px;
     font-family: 'SB Sans Display', sans-serif;

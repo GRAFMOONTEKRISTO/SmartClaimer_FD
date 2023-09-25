@@ -1,16 +1,22 @@
 import React from 'react';
-import classes from './Square.module.css'
+import classes from './Square1.module.css'
 import Image from '../../../images/laptop.png'
-const Square = () => {
+import Ellipse from './Ellipse1.svg'
+import Digit from './1.svg'
+const Square1 = () => {
     return (
         <div className={classes.square}>
             <div className={classes.content}>
 
-                <div className={classes.text}>
+                <div className={classes.imageUp}>
+                    <img src={Ellipse} alt='Ellipse'/>
+                </div>
+
+                <div className={classes.title}>
                     <p>Определение запросов</p>
                 </div>
 
-                <div className={classes.image}>
+                <div className={classes.imageDown}>
                     <img src={Image} alt="LogoLaptop"/>
                 </div>
 
@@ -22,4 +28,4 @@ const Square = () => {
         </div>
     );
 }
-export default Square;
+export default Square1;
