@@ -1,0 +1,27 @@
+<svg width="247" height="247" viewBox="0 0 247 247" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Frame 270988863">
+<g id="Mask group">
+<mask id="mask0_189_1043" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="2" y="24" width="133" height="199">
+<g id="Group 2087324325">
+<path id="Vector" d="M101.5 62.075C101.5 43.8082 86.6919 29 68.4251 29C50.1583 29 35.3501 43.8082 35.3501 62.075V109.325C35.3501 127.592 50.1583 142.4 68.4251 142.4C86.6919 142.4 101.5 127.592 101.5 109.325V62.075Z" stroke="#2E2E2E" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M129.85 109.325C129.85 125.616 123.378 141.24 111.859 152.759C100.34 164.278 84.7159 170.75 68.425 170.75C52.1341 170.75 36.5104 164.278 24.991 152.759C13.4715 141.24 7 125.616 7 109.325" stroke="#2E2E2E" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M68.4248 170.75V218" stroke="#2E2E2E" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M58.9751 57.3501H77.8751" stroke="#2E2E2E" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M58.9751 85.7H77.8751" stroke="#2E2E2E" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</mask>
+<g mask="url(#mask0_189_1043)">
+<rect id="Rectangle 240647059" x="-42" y="-1" width="228" height="252" rx="48" fill="url(#paint0_linear_189_1043)"/>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_189_1043" x1="-87.3504" y1="125" x2="190.577" y2="125" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6EEA59"/>
+<stop offset="0.25" stop-color="#6EE27D"/>
+<stop offset="0.5" stop-color="#71DAA3"/>
+<stop offset="0.75" stop-color="#79C5C1"/>
+<stop offset="1" stop-color="#9195E1"/>
+</linearGradient>
+</defs>
+</svg>

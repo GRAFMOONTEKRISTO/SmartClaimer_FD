@@ -11,8 +11,10 @@ import ImageMagician from "./components/Header/Midle/ImageMagician/ImageMagician
 import TitleOpportunities from "./components/Opportunities/Title/Title";
 import Square1 from "./components/Opportunities/Square1/Square1";
 import Square3 from "./components/Opportunities/Square3/Square3";
+import Square2 from "./components/Opportunities/Square2/Square2";
+import Square4 from "./components/Opportunities/Square4/Square4";
 // import {Logo,ButtomRegistration,Name,ButtonLogin,NameMiddle,TextMiddle,ButtonTryFree,ImageMagician} from "./components"
-const App = (props) => {
+const App = () => {
     return (
         <>
             <header className={styles.header}>
@@ -45,15 +47,19 @@ const App = (props) => {
                 <div className={styles.content}>
                     <div className={styles.title_opportunities}>
                         <TitleOpportunities/>
-                        <Square1/>
-                        <Square3/>
+                        <div className={styles.container}>
+                            <div className={styles.column}>
+                                <Square1/>
+                                <Square3/>
+                            </div>
+                            <div className={styles.column}>
+                                <Square2/>
+                                <Square4/>
+                            </div>
+                        </div>
                     </div>
-                    {/*<div className={styles.square}>*/}
-                    {/*    <Square1/>*/}
-                    {/*</div>*/}
                 </div>
             </div>
-
         </>
     );
 }
