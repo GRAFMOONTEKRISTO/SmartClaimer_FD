@@ -1,0 +1,31 @@
+.container {
+    width: 228px;
+    height: 48px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 48px;
+    border: 2px solid #4CEF8F;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    display: inline-flex;
+    background-color: black;
+}
+.buttonWrapper {
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    display: inline-flex;
+}
+.buttonText {
+    text-align: center;
+    color: #4CEF8F;
+    font-size: 16px;
+    font-family: 'SB Sans Text', sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    word-wrap: break-word;
+}

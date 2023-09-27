@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './name.module.css'
+import classes from './Name.module.css'
 
 const Title = () => {
     return (

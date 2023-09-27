@@ -1,0 +1,14 @@
+.img {
+    width: 625px;
+    height: 625px;
+    transform: rotate(140.92deg);
+    transform-origin: 0 0;
+    opacity: 0.40;
+    background: linear-gradient(83deg, #6EEA5A 0%, #6EE27C 33%, #71DBA2 67%, #9194E1 100%);
+    box-shadow: 164px 164px 164px;
+    border-radius: 9999px;
+    filter: blur(164px);
+    margin-top: -500px;
+    position: relative;
+    right: -302px;
+}
