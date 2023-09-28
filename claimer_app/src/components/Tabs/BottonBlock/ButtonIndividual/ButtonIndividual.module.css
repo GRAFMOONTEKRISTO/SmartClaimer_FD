@@ -1,0 +1,26 @@
+.buttonlegal {
+    width: 294px;
+    height: 92px;
+    display: inline-block;
+    padding: 20px 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 28px 28px 0px 0px;
+    background: #4CEF8F;
+    margin-left: 16px;
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+    position: relative;
+    top: 205px;
+}
+
+.textstyle {
+    color: #FFF;
+    font-family: 'SB Sans Text', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 52px;
+}

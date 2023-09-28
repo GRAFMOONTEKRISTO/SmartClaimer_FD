@@ -12,3 +12,16 @@
     position: relative;
     right: -302px;
 }
+
+.img2 {
+    border-radius: 665px;
+    opacity: 0.4;
+    background: linear-gradient(83deg, #6EEA5A -180.69%, #6EE27C -94.72%, #71DBA2 -8.76%, #9194E1 77.2%);
+    filter: blur(82px);
+    width: 665px;
+    height: 665px;
+    flex-shrink: 0;
+    position: relative;
+    right: 335px;
+    margin-top: -900px;
+}

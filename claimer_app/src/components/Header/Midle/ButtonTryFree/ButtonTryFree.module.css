@@ -13,14 +13,18 @@
     gap: 8px;
     display: inline-flex;
     margin-top: 32px;
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+    left: -80px;
 }
-.content {
+.buttonWrapper {
     justify-content: center;
     align-items: center;
     gap: 8px;
     display: inline-flex;
 }
-.text {
+.buttonText {
     text-align: center;
     color: black;
     font-size: 16px;

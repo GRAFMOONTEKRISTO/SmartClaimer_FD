@@ -7,4 +7,6 @@
     font-weight: 600;
     line-height: 56px;
     word-wrap: break-word;
+    position: relative;
+    left: -80px;
 }

@@ -14,6 +14,9 @@ import Square2 from "./components/Opportunities/Square2/Square2";
 import Square4 from "./components/Opportunities/Square4/Square4";
 import ButtonRegistration from "./components/Header/Title/Buttom_registration/Button_registration";
 import ImageMiddle from "./components/Opportunities/Image/Image";
+import ButtonLegal from "./components/Tabs/BottonBlock/ButtonLegal/ButtonLegal";
+import ButtonIndividual from "./components/Tabs/BottonBlock/ButtonIndividual/ButtonIndividual";
+import InternalInformation from "./components/Tabs/BottonBlock/IndividualBlock/IndividualBlock";
 // import {Logo,ButtomRegistration,Name,ButtonLogin,NameMiddle,TextMiddle,ButtonTryFree,ImageMagician} from "./components"
 const App = () => {
     return (
@@ -48,7 +51,6 @@ const App = () => {
                 <div className={styles.content}>
                     <div className={styles.title_opportunities}>
                         <TitleOpportunities/>
-
                         <div className={styles.container}>
                             <div className={styles.column}>
                                 <Square1/>
@@ -63,6 +65,22 @@ const App = () => {
                     </div>
                 </div>
             </div>
+
+            <div className={styles.tabs}>
+                <ButtonLegal/>
+                <ButtonIndividual/>
+                <div className={styles.contentTabs}>
+
+                    <div>
+                        <InternalInformation/>
+                    </div>
+
+                    <div>
+
+                    </div>
+                </div>
+            </div>
+
         </>
     );
 }

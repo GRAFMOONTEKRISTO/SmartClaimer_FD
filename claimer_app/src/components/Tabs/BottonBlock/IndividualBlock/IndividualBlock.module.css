@@ -1,0 +1,42 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 738px 1fr;
+    grid-gap: 20px;
+    width: 738px;
+    height: 351px;
+
+}
+.title {
+    color: #FFF;
+    font-family: 'SB Sans Display', sans-serif;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+    width: 738px;
+    height: 119px;
+    margin-left: 80px;
+    margin-top: 174px;
+
+}
+.generalDiscription {
+    width: 738px;
+    height: 120px;
+    margin-left: 80px;
+    margin-top: 32px;
+}
+
+.description {
+    color: #E7E7E7;
+    font-family: "SB Sans Text", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    width: 714px;
+    height: 50px;
+    margin-left: 24px
+}
+.img {
+    margin-top: 50px;
+}

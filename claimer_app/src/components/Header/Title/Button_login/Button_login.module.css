@@ -12,6 +12,9 @@
     align-items: center;
     gap: 8px;
     display: inline-flex;
+    /*border: none !important;*/
+    /*box-shadow: none !important;*/
+    /*outline: none !important;*/
 }
 .buttonWrapper {
     justify-content: center;
@@ -20,11 +23,12 @@
     display: inline-flex;
 }
 .buttonText {
+    color: #000;
     text-align: center;
-    color: black;
-    font-size: 16px;
     font-family: 'SB Sans Text', sans-serif;
+    font-size: 16px;
+    font-style: normal;
     font-weight: 500;
     line-height: 24px;
-    word-wrap: break-word;
+    letter-spacing: -0.3px;
 }

@@ -41,7 +41,7 @@
 
 .imageContainer {
     /*background-color: white;*/
-    width: 100%;
+    /*width: 100%;*/
     max-width: 1440px;
     margin-left: -700px;
 }
@@ -49,14 +49,32 @@
 .opportunities {
     max-width: 1440px;
     margin: 0 auto;
-    margin-top: 120px
+    margin-top: 120px;
 }
 
 .container {
     display: flex;
-    height: 1628px;
+    height: 1488px;
 }
 
 .column {
     width: calc(50%);
+}
+
+
+.tabs {
+    max-width: 1440px;
+    margin: 0 auto;
+    /*margin-top: 120px;*/
+}
+
+.contentTabs {
+    position: absolute;
+    width: 1440px;
+    height: 700px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #2B2B2B;
+    backdrop-filter: blur(70px);
+    margin-top: 205px;
 }
