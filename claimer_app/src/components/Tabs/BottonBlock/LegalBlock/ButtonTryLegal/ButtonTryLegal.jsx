@@ -1,14 +1,14 @@
 import React from 'react';
 import {Button} from "antd";
-import classes from './ButtonTry.module.css';
+import classes from './ButtonTryLegal.module.css';
 
-const ButtonTry = () => {
+const ButtonTryLegal = () => {
     return (
-        <Button className={classes.buttonTry}>
+        <Button className={classes.buttonTryLegal}>
             <div className={classes.textstyle}>
                 Попробовать
             </div>
         </Button>
     );
 }
-export default ButtonTry;
+export default ButtonTryLegal;

@@ -1,0 +1,15 @@
+.container {
+    position: relative;
+    float: right;
+    top: -525px;
+    margin-right: 240px;
+}
+
+.image {
+    width: 620px;
+    height: 619px;
+}
+
+.flash {
+
+}

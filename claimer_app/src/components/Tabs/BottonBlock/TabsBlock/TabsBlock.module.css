@@ -1,0 +1,36 @@
+.buttonIndividual {
+    width: 294px;
+    height: 92px;
+    display: inline-block;
+    padding: 20px 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 28px 28px 0px 0px;
+    background: #4CEF8F;
+    margin-left: 16px;
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+    position: relative;
+    top: 205px;
+}
+
+.buttonLegal {
+    width: 308px;
+    height: 92px;
+    display: inline-block;
+    padding: 20px 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 28px 28px 0px 0px;
+    background: #2B2B2B;
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+    margin-left: 80px;
+    margin-top: 205px;
+    position: relative;
+    top: 205px;
+}

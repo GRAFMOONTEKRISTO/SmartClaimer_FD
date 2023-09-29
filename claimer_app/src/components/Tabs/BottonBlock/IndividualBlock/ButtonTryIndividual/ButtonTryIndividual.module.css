@@ -11,13 +11,16 @@
     background: linear-gradient(90deg, #6EEA59 -19.89%, #6EE27D 10.58%, #71DAA3 41.06%, #79C5C1 71.53%, #9195E1 102.01%);
     margin-left: 80px;
     margin-top: 32px;
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
 }
 
 .textstyle {
-    color: #FFF;
-    font-family: 'SB Sans Text', sans-serif;
+    color: black;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 52px;
+    font-family: 'SB Sans Text', sans-serif;
+    font-weight: 500;
+    line-height: 24;
+    word-wrap: break-word;
 }
