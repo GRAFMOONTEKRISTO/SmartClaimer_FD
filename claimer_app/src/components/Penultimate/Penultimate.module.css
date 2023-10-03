@@ -1,0 +1,26 @@
+.grid {
+    display: grid;
+    grid-gap: 20px;
+    width: 1280px;
+    height: 140px;
+    padding: 0 80px;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 54px;
+    font-family: 'SB Sans Display', sans-serif;
+    font-weight: 600;
+    line-height: 70px;
+    word-wrap: break-word;
+}
+
+
+.centerbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+}

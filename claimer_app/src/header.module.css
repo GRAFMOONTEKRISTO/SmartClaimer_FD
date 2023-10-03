@@ -33,15 +33,13 @@
 .midleBlock {
     position: relative;
     width: 100%;
-    max-width: 630px; /* Фиксированная ширина */
-    height: auto; /* Высота автоматически рассчитывается */
-    margin: 376px 0 0 80px; /* Задаем отступы с помощью margin */
-    gap: 32px; /* Расстояние между элементами */
+    max-width: 630px;
+    height: auto;
+    margin: 376px 0 0 80px;
+    gap: 32px;
 }
 
 .imageContainer {
-    /*background-color: white;*/
-    /*width: 100%;*/
     max-width: 1440px;
     margin-left: -700px;
 }
@@ -61,20 +59,22 @@
     width: calc(50%);
 }
 
-
 .tabs {
     max-width: 1440px;
     margin: 0 auto;
-    /*margin-top: 120px;*/
+    margin-top: 205px;
 }
 
-.contentTabs {
-    position: absolute;
-    width: 1440px;
-    height: 700px;
-    flex-shrink: 0;
-    border-radius: 50px;
-    background: #2B2B2B;
-    backdrop-filter: blur(70px);
-    margin-top: 205px;
+
+.penultimate {
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+
+.footer {
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 120px;
 }

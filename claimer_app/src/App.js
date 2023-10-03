@@ -17,13 +17,15 @@ import ImageMiddle from "./components/Opportunities/Image/Image";
 import ButtonLegal from "./components/Tabs/BottonBlock/ButtonLegal/ButtonLegal";
 import ButtonIndividual from "./components/Tabs/BottonBlock/ButtonIndividual/ButtonIndividual";
 import InternalInformation from "./components/Tabs/BottonBlock/IndividualBlock/IndividualBlock";
-import InnerImageIndividual from "./components/Tabs/BottonBlock/IndividualBlock/InnerImageIndividualBlock/InnerImageIndividual";
+import InnerImageIndividual
+    from "./components/Tabs/BottonBlock/IndividualBlock/InnerImageIndividualBlock/InnerImageIndividual";
 import LegalBlock from "./components/Tabs/BottonBlock/LegalBlock/LegalBlock";
 import InnerImageLegal from "./components/Tabs/BottonBlock/LegalBlock/InnerImageLegalBlock/InnerImageLegal";
 import React from "react";
 import Tabs from "./components/Tabs/BottonBlock/TabsBlock/TabsBlock";
 import Tabsss from "./components/Tabs/BottonBlock/TabsBlock/TabsBlock";
 import TabsBlock from "./components/Tabs/BottonBlock/TabsBlock/TabsBlock";
+import Penultimate from "./components/Penultimate/Penultimate";
 // import {Logo,ButtomRegistration,Name,ButtonLogin,NameMiddle,TextMiddle,ButtonTryFree,ImageMagician} from "./components"
 const App = () => {
     return (
@@ -73,29 +75,18 @@ const App = () => {
                 </div>
             </div>
 
-
-
             <div className={styles.tabs}>
                 <TabsBlock/>
-                {/*<ButtonLegal/>*/}
-                {/*<ButtonIndividual/>*/}
-                <div className={styles.contentTabs}>
-                    <InternalInformation/>
-                    <InnerImageIndividual/>
-                </div>
             </div>
 
 
+            <div className={styles.penultimate}>
+                <Penultimate/>
+            </div>
 
-            {/*<div className={styles.tabs}>*/}
-            {/*    <ButtonLegal/>*/}
-            {/*    <ButtonIndividual/>*/}
-            {/*    <div className={styles.contentTabs}>*/}
-            {/*        <LegalBlock/>*/}
-            {/*        <InnerImageLegal/>*/}
-            {/*    </div>*/}
-            {/*</div>*/}
+            <div className={styles.footer}>
 
+            </div>
 
         </>
     );

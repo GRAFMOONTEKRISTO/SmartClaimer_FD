@@ -4,7 +4,17 @@
     grid-gap: 20px;
     width: 738px;
     height: 351px;
+}
 
+.wrapper {
+    position: absolute;
+    width: 1440px;
+    height: 700px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #2B2B2B;
+    backdrop-filter: blur(70px);
+    margin-top: -16px;
 }
 .title {
     color: #FFF;
@@ -37,8 +47,6 @@
     height: 50px;
     margin-left: 24px
 }
-
-
 
 .image {
     float: left;

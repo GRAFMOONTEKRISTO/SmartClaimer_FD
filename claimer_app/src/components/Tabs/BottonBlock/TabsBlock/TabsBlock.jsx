@@ -1,27 +1,42 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {Tabs} from 'antd';
-import classes from "./TabsBlock.module.css";
+import classes from './TabsBlock.module.css';
+import InternalInformation from "../IndividualBlock/IndividualBlock";
+import LegalBlock from "../LegalBlock/LegalBlock";
 
-const {TabPane} = Tabs;
-const onChange = (key) => {
-    console.log(key);
+const TabsBlock = () => {
+    const [activeTab, setActiveTab] = useState('1');
+    const onChange = (key) => {
+        setActiveTab(key);
+    };
+    return (
+        <Tabs
+            defaultActiveKey="1"
+            onChange={onChange}
+            type="card"
+            className={classes.tabs}
+        >
+            <Tabs.TabPane
+                tab={
+                    <div className={`${classes.tab1} ${classes.custom_tab} ${activeTab === '1' ? classes.active : ''}`}>
+                        Для юридических лиц
+                    </div>
+                }
+                key="1"
+            >
+                <InternalInformation />
+            </Tabs.TabPane>
+            <Tabs.TabPane
+                tab={
+                    <div className={`${classes.tab2} ${classes.custom_tab} ${activeTab === '2' ? classes.active : ''}`}>
+                        Для физических лиц
+                    </div>
+                }
+                key="2"
+            >
+                <LegalBlock />
+            </Tabs.TabPane>
+        </Tabs>
+    );
 };
-const TabsBlock = () => (
-    <Tabs
-        onChange={onChange}
-        type="card"
-        defaultActiveKey="1"
-    >
-        <div className={classes.buttonIndividual}>
-            <TabPane tab="Для юридических лиц" key="1">
-
-            </TabPane>
-        </div>
-        <div className={classes.buttonLegal}>
-            <TabPane tab="Для физических лиц" key="2">
-
-            </TabPane>
-        </div>
-    </Tabs>
-);
 export default TabsBlock;

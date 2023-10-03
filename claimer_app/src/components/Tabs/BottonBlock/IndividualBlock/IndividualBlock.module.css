@@ -4,8 +4,22 @@
     grid-gap: 20px;
     width: 738px;
     height: 351px;
+    background-color: #2B2B2B;
 
 }
+
+.wrapper {
+    position: absolute;
+    width: 1440px;
+    height: 700px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #2B2B2B;
+    backdrop-filter: blur(70px);
+    margin-top: -16px;
+
+}
+
 .title {
     color: #FFF;
     font-family: 'SB Sans Display', sans-serif;
@@ -19,6 +33,7 @@
     margin-top: 174px;
 
 }
+
 .generalDiscription {
     width: 738px;
     height: 120px;
@@ -39,10 +54,10 @@
 }
 
 
-
 .image {
     float: left;
     margin-right: 16px;
     margin-top: 8px;
 
 }
+
